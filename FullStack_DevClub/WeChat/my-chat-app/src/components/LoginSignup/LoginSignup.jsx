@@ -26,7 +26,7 @@ const LoginSignup = () => {
             <div className="inputs">
                 <div className="input">
                     <img src={user_icon} alt="" />
-                    <input type="username" />
+                    <input type="username" placeholder="Username" />
 
                 </div>
 
@@ -34,7 +34,7 @@ const LoginSignup = () => {
             <div className="inputs">
                 <div className="input">
                     <img src={email_icon} alt="" />
-                    <input type="email" />
+                    <input type="email" placeholder="Email" />
 
                 </div>
 
@@ -42,7 +42,7 @@ const LoginSignup = () => {
             <div className="inputs">
                 <div className="input">
                     <img src={password_icon} alt="" />
-                    <input type="password" />
+                    <input type="password" placeholder="Password" />
 
                 </div>
 
